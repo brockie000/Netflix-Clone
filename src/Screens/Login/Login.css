@@ -43,13 +43,107 @@
 .login_body{
     position: absolute;
     top: 30%;
+    width: 100%;
     z-index: 1;
     color: #fff;
     padding: 20px;
-    color: aqua;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
 }
 
-.login_body > h1 {
+.log_page > h1 {
     font-size: 3.125rem;
     margin-bottom: 20px;
+}
+
+.log_page > h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.log_page > h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.login_input{
+    margin: 20px;
+}
+
+.login_input > form > input{
+    outline-width: 0;
+    padding: 10px;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
+
+.login_button1{
+    font-size: 1rem;
+    padding: 16px 20px;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    height: 49px;
+    font-weight: 600;
+
+}
+
+.signupScreen{
+    max-width: 300px;
+    padding: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.signupScreen > form {
+    display: grid;
+    flex-direction: column;
+}
+
+.signupScreen > form > h1 {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.signupScreen  > h4 {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.span_gray{
+    color: gray;
+}
+
+.span_white{
+    cursor: pointer;
+}
+
+.span_white:hover{
+    text-decoration: underline;
+}
+
+
+.signupScreen > form > input {
+    outline-width: 0;
+    height: 40px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+}
+
+.signupScreen > form > button {
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
 }
