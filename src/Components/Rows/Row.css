@@ -1,0 +1,43 @@
+.row{
+    padding: 20px;
+}
+
+.title{
+    color: white;
+    position: relative;
+}
+
+.movies{
+    color: white;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    
+}
+
+.movie{
+    max-height: 100px;
+    margin-right: 10px;
+    object-fit: contain;
+    transition: transform 450ms;
+    cursor: pointer;
+}
+
+.movies::-webkit-scrollbar{
+    display: none;
+}
+
+.movie_large{
+    max-height: 250px;
+}
+
+.movie_container:hover{
+    transform: scale(1.08);
+    transition: transform 1s;
+    
+}
+
+.hidden_container{
+    display: none;
+}
